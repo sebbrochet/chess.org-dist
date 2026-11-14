@@ -12,8 +12,10 @@ self.addEventListener('activate', event => {
 });
 self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET' || new URL(event.request.url).origin !== self.location.origin) return;
+  const { pathname } = new URL(event.request.url);
+  const shell = event.request.mode === 'navigate' && (pathname === '/' || pathname === '/index.html');
   event.respondWith(caches.open(CACHE).then(async cache => {
-    const saved = await cache.match(event.request.mode === 'navigate' ? '/' : event.request, { ignoreVary: true });
+    const saved = await cache.match(shell ? '/' : event.request, { ignoreVary: true, ignoreSearch: shell });
     return saved || fetch(event.request);
   }));
 });
