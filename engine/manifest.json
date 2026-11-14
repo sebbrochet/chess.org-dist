@@ -1,0 +1,38 @@
+{
+  "version": "18.0.7",
+  "sourceRevision": "fdc622346bd70cd6f65e9f711066426d1aa843c2",
+  "sourceUrl": "https://codeload.github.com/nmrugg/stockfish.js/tar.gz/fdc622346bd70cd6f65e9f711066426d1aa843c2",
+  "networkUrl": "https://tests.stockfishchess.org/api/nn/nn-9067e33176e8.nnue",
+  "assets": [
+    {
+      "path": "/engine/stockfish-18-lite-single.js",
+      "bytes": 20670,
+      "sha256": "2278005057f381491f1c9bb3e44c9f5920b3a00bef9759e33cc6582769a1f1fe"
+    },
+    {
+      "path": "/engine/stockfish-18-lite-single.wasm",
+      "bytes": 7295411,
+      "sha256": "a8fbc05ec6920b56d7485826dcb02c5ffd2826bcbf751cf973046f237a9096f1"
+    },
+    {
+      "path": "/engine/COPYING.txt",
+      "bytes": 35821,
+      "sha256": "0b383d5a63da644f628d99c33976ea6487ed89aaa59f0b3257992deac1171e6b"
+    },
+    {
+      "path": "/engine/stockfish.js-18.0.7-source.tar",
+      "bytes": 2662400,
+      "sha256": "b8c818028a9d21c4f73c6725c6f45966977aef90bfd427c796598451a364033f"
+    },
+    {
+      "path": "/engine/nn-9067e33176e8.nnue",
+      "bytes": 6617595,
+      "sha256": "9067e33176e8c5edb7aa8db6a3aedd012f84a1f39872e86357c6c2d0993f314d"
+    },
+    {
+      "path": "/engine/SOURCE.md",
+      "bytes": 1829,
+      "sha256": "18b2510253b7343dacafdf33550d7cdfd365e186ff1f02675a5ec65fdce3bf9d"
+    }
+  ]
+}

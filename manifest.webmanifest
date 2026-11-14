@@ -1,0 +1,12 @@
+{
+  "id": "/",
+  "name": "chess.org Games",
+  "short_name": "chess.org",
+  "description": "A local chess game library",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f7f4ef",
+  "theme_color": "#b11f4b",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
