@@ -25,8 +25,12 @@ It runs entirely in your browser: there is no account and no server. Your games,
 
 ## About this repository
 
-This repository contains only the built website that GitHub Pages serves at the address above. It is updated with each release.
+This repository contains the built website served by GitHub Pages at the address above, updated with each release.
+
+## Source code
+
+The complete source code of the published version is available as **[chess.org-source.zip](chess.org-source.zip)**. It can also be downloaded from the app itself, using the **Source code (GPL)** link in the Games footer. The archive's README explains how to build and test it; the Stockfish files and Stockfish's own source code are downloaded and checked during the build.
 
 ## Licenses
 
-chess.org is distributed under the GPL-3.0-or-later license (see [LICENSE.txt](LICENSE.txt)). Third-party components, including Stockfish (GPL-3.0, with its corresponding source in [engine/](engine/SOURCE.md)), chessground, chessops and the piece sets, keep their own licenses. These are listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and [THIRD_PARTY_LICENSES.txt](THIRD_PARTY_LICENSES.txt).
+chess.org is free software distributed under the GPL-3.0-or-later license (see [LICENSE.txt](LICENSE.txt)). Third-party components, including Stockfish (GPL-3.0, with its corresponding source in [engine/](engine/SOURCE.md)), chessground, chessops and the piece sets, keep their own licenses. These are listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and [THIRD_PARTY_LICENSES.txt](THIRD_PARTY_LICENSES.txt).
